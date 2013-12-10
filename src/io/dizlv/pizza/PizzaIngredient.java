@@ -53,7 +53,7 @@ public class PizzaIngredient {
 
     @Override
     public String toString() {
-        return String.format("%s[cost=%s, isVegetarian=%s]", getClass().getName(), cost, isVegetarian);
+        return String.format("Cost:%s\nIs Vegetarian:%s", cost, isVegetarian);
     }
 
 }

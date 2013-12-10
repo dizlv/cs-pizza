@@ -37,7 +37,7 @@ public class PizzaTopping extends PizzaIngredient {
 
     @Override
     public String toString() {
-        return String.format("%s[name=%s]", super.toString(), name);
+        return String.format("%s\nName:%s\n", super.toString(), name);
     }
 
 }
