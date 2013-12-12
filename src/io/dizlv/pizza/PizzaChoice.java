@@ -74,7 +74,10 @@ public class PizzaChoice {
         }
 
         Pizza pizza = pizzaBuilder.build();
-        System.out.println("Pizza's cost: " + pizza.calculateCost());
+
+        System.out.println("Total cost:" + pizza.calculateCost());
+        System.out.println("Vegetarian:" + pizza.isVegetarian());
+        System.out.println();
         System.out.println(pizza);
     }
 

@@ -54,6 +54,9 @@ public class PizzaMenu {
         if (pizza == null) {
             System.out.println("No such pizza in menu.");
         } else {
+            System.out.println("Total cost:" + pizza.calculateCost());
+            System.out.println("Vegetarian:" + pizza.isVegetarian());
+            System.out.println();
             System.out.println(pizza);
         }
 
